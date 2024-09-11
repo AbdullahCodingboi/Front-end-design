@@ -1,0 +1,92 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* height: 100vh; */
+}
+.main{
+    box-shadow: 5px 10px 10px  black;
+    display: flex;
+    /* flex-direction: column; */
+    background-image: url(download.png);
+    background-color: #cccccc;
+    /* background-color: black; */
+    flex-wrap: wrap;
+    padding: 50px;
+    height: 1fr;
+    width:450px;
+    gap: 10px;
+    /* justify-content: center; */
+    /* gap: 10px; */
+    
+}
+
+   
+
+.screen{
+    display: flex;
+    height: 100px;
+    width: 400px;
+    background-color: gray;
+    justify-content: end;
+    color: white;
+    align-items: center;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+}
+.pressables{
+    background: none;
+     border: none;
+     width: 80px;
+     height: 80px;
+     color: #000000;
+     font-size: 30px;
+     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.buttons{
+    display:flex ;
+    margin-top: 20px;
+    background-color:#A5A5A5 ;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+    color: #000000;
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    transition: transform 0.5s ease;
+
+}
+.buttons:nth-child(18){
+    border-radius: 30px;
+    width: 200px;
+   
+}
+
+.buttonsr2{
+    display: flex;
+   
+    margin-top: 20px;
+    background-color:#FF9F0A ;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+    color: #000000;
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: transform 0.5s ease;
+}
+.buttons:hover{
+    transform: scale(0.5);
+}
+.buttonsr2:hover{
+    transform: scale(0.5);
+}
+

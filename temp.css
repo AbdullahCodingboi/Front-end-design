@@ -1,0 +1,47 @@
+body{
+    background-color: thistle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+   
+    
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 3px paleturquoise;
+    height: 1fr;
+    width: 100%;
+    background-color: cadetblue;
+    padding: 40px;
+}
+#heading{
+    color: rgb(199, 231, 149);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+   
+}
+#Farenhiet{
+    margin: 20px;
+
+    width: 700px;
+    height: 20px;
+    box-shadow: 5px 5px 3px paleturquoise;
+
+}
+#Celsius{
+    margin: 20px;
+    width: 700px;
+    height: 20px;
+    box-shadow: 5px 5px 3px paleturquoise;
+}
+#button{
+    margin: 20px;
+    box-shadow: 5px 5px 3px paleturquoise;
+    height: 50px;
+    width: 100px;
+
+}
